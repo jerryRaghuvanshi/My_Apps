@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="what_is_your_name">what is your name ?</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="enter_your_namee">Enter your name</string>
+    <string name="Enter_your_name">Enter your name</string>
+    <string name="submit_and_next">Submit and Next</string>
+</resources>
