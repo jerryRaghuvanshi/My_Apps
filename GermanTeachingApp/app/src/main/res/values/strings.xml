@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">German Teaching App</string>
+    <string name="welcome_to_german_learning_app">Welcome to german learning app</string>
+    <string name="r_e_d">R E D</string>
+    <string name="b_l_u_e">B L U E</string>
+    <string name="g_r_e_e_n">G R E E N</string>
+    <string name="p_i_n_k">P I N K</string>
+    <string name="todo">TODO</string>
+    <string name="b_l_a_c_k">B L A C K</string>
+    <string name="w_h_i_t_e">W H I T E</string>
+    <string name="search">Search</string>
+    <string name="home">Home</string>
+</resources>

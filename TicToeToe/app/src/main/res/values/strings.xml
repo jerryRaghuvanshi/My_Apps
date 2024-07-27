@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TicToeToe</string>
+    <string name="welcome_to_tic_tac_toe">Welcome to Tic Tac Toe</string>
+    <string name="todo">TODO</string>
+    <string name="todo1">TODO</string>
+    <string name="t2">TODO</string>
+    <string name="t3">t3</string>
+    <string name="t4">TODO</string>
+    <string name="t5">TODO</string>
+    <string name="t6">TODO</string>
+    <string name="t7">TODO</string>
+    <string name="t8">TODO</string>
+    <string name="t9">TODO</string>
+    <string name="your_turn">your turn</string>
+    <string name="your_turn1">your Turn</string>
+    <string name="your_turn2">your_Turn</string>
+    <string name="your_turn3">your turn</string>
+    <string name="textview">TextView</string>
+</resources>
