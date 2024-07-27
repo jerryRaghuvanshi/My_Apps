@@ -1,0 +1,30 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable first
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable second
+drawable third
+id button
+id edit2
+id main
+id text
+layout activity_my_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string Enter_your_name
+string app_name
+string enter_your_name
+string enter_your_namee
+string submit_and_next
+string what_is_your_name
+style Theme.MyApplication
+xml backup_rules
+xml data_extraction_rules
