@@ -15,8 +15,9 @@ import androidx.core.view.WindowInsetsCompat;
 import java.util.Random;
 
 public class MainActivity2 extends AppCompatActivity {
-TextView textView,text2;
-Button button;
+    TextView textView, text2;
+    Button button;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,29 +35,31 @@ Button button;
         Intent i = getIntent();
         String username = i.getStringExtra("name");
         int random_num = GenerateRandomNumber();
-        textView.setText(""+ random_num);
+        textView.setText("" + random_num);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-shareData(username,random_num);
+                shareData(username, random_num);
             }
         });
 // Generating random number
     }
-    public int GenerateRandomNumber(){
+
+    public int GenerateRandomNumber() {
         Random random = new Random();
         int upper_limit = 1000;
         return random.nextInt(upper_limit);
     }
-    public void shareData(String username , int random_num){
+
+    public void shareData(String username, int random_num) {
         // implicit intent
         Intent i = new Intent(Intent.ACTION_SEND);
         i.setType("text/plain");
         // Additional info
-        i.putExtra(Intent.EXTRA_SUBJECT,username+ "got a Lucky number");
-        i.putExtra(Intent.EXTRA_TEXT,"His Lucky Number is "+ random_num);
+        i.putExtra(Intent.EXTRA_SUBJECT, username + " got a Lucky number");
+        i.putExtra(Intent.EXTRA_TEXT, "His Lucky Number is " + random_num);
 
-        startActivity(Intent.createChooser(i,"chose a platform"));
+        startActivity(Intent.createChooser(i, "chose a platform"));
 
     }
 }

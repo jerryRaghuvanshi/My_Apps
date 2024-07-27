@@ -44,6 +44,7 @@
         tools:ignore="VisualLintTextFieldSize" />
 
     <Button
+        android:backgroundTint="@null"
         android:id="@+id/wish"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
